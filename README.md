@@ -39,3 +39,4 @@ Para instalar la aplicación, es necesario tener Node.js y MongoDB instalados en
    Luego de tener instaladas las dependencias se ejecuta el comando
    `npm start`
 # ProyectoGeekkoTienda
+# ProyectoGeekkoTienda
