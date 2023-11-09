@@ -1,0 +1,257 @@
+
+/* GENERAL */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+
+:root {
+--cafe-bg-color: #800000;
+--amarillo-bg-color: #FFFFA7;
+--rosado-bg-color: #FAA786;
+--rojo-bg-color: #FF4343;
+--naranja-bg-color: #FF9021;
+--azul-bg-color: #8EE7D2;
+--piel-bg-color: #FFE8BC;
+
+}
+
+/******************************   product     *****************************************/
+
+.product-section{
+width: 100%;
+background-color: rgb(255, 255, 255);
+height: 90%;
+}
+
+
+.container-ordenar .buscar img{
+width: 20px;
+height: 20px;
+padding: 5px;
+background-color: var(--rojo-bg-color);
+
+
+}
+.container-ordenar .buscar{
+width: 20px;
+
+}
+
+.container-ordenar {
+width: 100%;
+text-align: end;
+padding: 30px 5% 15px 5%;
+
+}
+
+.select-ordenar{
+  border: none;
+  font-size: 15px;
+  font-weight: 300;
+  outline: none;
+}
+
+.container-product{
+display: flex;
+width: 100%;
+padding: 0px 5%;
+}
+
+.container-filtar{
+width: 220px;
+height: 100vh;
+}
+
+.container-filtar h3{
+margin-top: 40px;
+}
+
+.container-filtar h5{
+margin-top: 10px;
+padding-left: 10px;
+}
+
+.container-filtar h5:nth-child(1){
+border-left: 3px solid var(--rojo-bg-color);
+}
+
+.container-card{
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+margin: auto;
+justify-content: space-evenly;
+align-items: center;
+
+}
+
+.container-card .card{
+height: 350px;
+width: 220px;
+/* box-shadow: 0px 0px 10px 5px rgba(160, 162, 152, 0.177); */
+margin: 15px 8px;
+border-radius: 8px;
+
+}
+
+.container-card .card img {
+width: 100%;
+height: 300px;
+border-radius: 8px;
+background-size: cover;
+
+}
+.container-card .card h5{
+text-align: center;
+font-size: 18px;
+}
+.container-card .card h6 {
+  text-align: center;
+  color: #616060;
+  font-size: 15px;
+}
+
+
+/***************************/
+
+
+.card-product__img{
+  position:relative
+}
+.card-product__imgOverlay {
+  background: rgba(255,255,255,0.5);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 5px;
+  transform: translateY(30px);
+  opacity: 0;
+  z-index: -1;
+  transition: all .48s ease;
+  display: flex;
+
+  
+flex-wrap: wrap;
+margin: auto;
+justify-content: space-evenly;
+}
+
+.card-product__imgOverlay li {
+  display: inline-block;
+}
+
+
+.card-product__imgOverlay li button {
+ 
+  border: 0;
+  border-radius: 0;
+  padding: 10px 10px;
+  background: #c2ede3;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.card-product__imgOverlay li button div {
+  width: 25px;
+  height: 25px;
+  font-size: 15px;
+  color: #fff;
+  vertical-align: middle;
+  background-size: cover;
+}
+
+
+.card-product:hover .card-product__imgOverlay{
+  opacity:1;
+  z-index:1;
+  transform:translateY(0);
+}
+.card-product:hover .card-descrip h5{
+  color:#67a798;
+}
+
+.card-product__imgOverlay li button:hover  {
+  background: var(--azul-bg-color);
+}
+
+/********************************************   footer     ************************************************/
+.footer_section {
+background-color: #273135;
+padding: 20px;
+font-family: "Dosis", sans-serif;
+font-weight: 500;
+}
+
+.footer_section p {
+color: #fbfcfd;
+margin: 0;
+text-align: center;
+}
+
+.footer_section a {
+color: #fbfcfd;
+
+}
+
+/*media query*/
+@media screen and (max-width: 1200px){
+
+  .nawRecetas li:nth-child(0n+1),
+  li:nth-child(0n+2),
+  li:nth-child(0n+3),
+  li:nth-child(0n+4),
+  li:nth-child(0n+5){
+      display: none;
+  }
+  .header-nav{
+    display: block;
+  }
+  .nawRecetas .busqueda{
+    width: 90%;
+    float: left;
+  }
+  .nav-button {
+    float: left;
+  }
+  .nav-button{
+    top: 20px;
+    right: 160px;
+  }
+
+}
+
+
+@media screen and (max-width: 500px){
+
+  .nawRecetas li:nth-child(0n+6){
+      display: none;
+  }
+  
+  #menu .img-logo{
+    margin-top: 15px;
+    margin-left: 15px;
+  }
+  #menu img{
+  height: 50px;
+  }
+
+  .container-user .user{
+    margin-right: 15px;
+  }
+  .container-user .user{
+    height: 40px;
+    width: 40px;
+    margin: 20px 40px 20px 10px;
+  }
+  .header-nav{
+    height: 25px;
+    margin: 30px 5px 30px 15px;
+  }
+  .color-yes{
+    height: 5px;
+  }
+  .color-no{
+    height: 5px;
+  }
+}

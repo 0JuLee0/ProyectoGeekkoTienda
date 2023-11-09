@@ -1,0 +1,102 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(77, 86, 93);
+    height: 90vh;
+}
+
+
+.right {
+    margin-top: 50px;
+    flex: 1;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: #979a96;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.table th,
+.table td {
+    padding: 0.75rem;
+    vertical-align: middle;
+    border: 1px solid #dee2e6;
+}
+
+
+.delete-button {
+    margin-right: 10px;
+    background-color: red;
+    color: white;
+}
+
+.update-button {
+    background-color: green;
+    color: white;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(77, 86, 93);
+    height: 90vh;
+}
+
+
+.right {
+    margin-top: 50px;
+    flex: 1;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: #979a96;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.table th,
+.table td {
+    padding: 0.75rem;
+    vertical-align: middle;
+    border: 1px solid #dee2e6;
+}
+
+
+.delete-button {
+    margin-right: 10px;
+    background-color: red;
+    color: white;
+}
+
+.update-button {
+    background-color: green;
+    color: white;
+    width: 60px;
+    height: 20px;
+
+}
+
+.Link {
+    text-decoration: none;
+    color: white;
+}
+.Link {
+    text-decoration: none;
+    color: white;
+}

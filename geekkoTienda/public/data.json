@@ -1,0 +1,50 @@
+[
+    {
+    "id": 1,
+    "name": "Kit Dragon Ball Z",
+    "price": 40000,
+    "img": "/images/kit_db.jpg",
+    "stock": 1,
+    "quanty": 1
+    },
+    {
+    "id": 2,
+    "name": "Kit Batman",
+    "price": 45000,
+    "img": "images/kit_batman.jpg",
+    "stock": 1,
+    "quanty": 1
+    },
+    {
+    "id": 3,
+    "name": "Kit Superman",
+    "price": 45000,
+    "img": "images/kit_superman.jpg",
+    "stock": 1,
+    "quanty": 1
+    },
+    {
+    "id": 4,
+    "name": "Peluche Elmo",
+    "price": 35000,
+    "img": "images/mix/camibuso_marvel_dc.jpg",
+    "stock": 1,
+    "quanty": 1
+    },
+    {
+    "id": 5,
+    "name": "Peluche Yoda",
+    "price": 25000,
+    "img": "images/pechue_yoda.jpg",
+    "stock": 1,
+    "quanty": 1
+    },
+    {
+    "id": 6,
+    "name": "Legos Caballeros del Zodíaco",
+    "price": 9900,
+    "img": "images/legos_cz.jpg",
+    "stock": 6,
+    "quanty": 1
+    }
+]

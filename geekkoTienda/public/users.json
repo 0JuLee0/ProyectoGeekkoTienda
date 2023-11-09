@@ -1,0 +1,20 @@
+[
+    {
+        "name":"Juan",
+        "surname":"Perez",
+        "email":"juanperez@gmail.com",
+        "contraseña":"Jperez.1234*"
+    },
+    {
+        "name":"Andrea",
+        "surname":"Corrales",
+        "email":"andreaC@hotmail.com",
+        "contraseña":"Andre123C**"
+    },
+    {
+        "name":"Eduardo",
+        "surname":"Cadavid",
+        "email":"eduardo301997@gmail.com",
+        "contraseña":"Eduado.1234**"
+    }
+]
